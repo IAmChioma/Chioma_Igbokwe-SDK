@@ -1,7 +1,7 @@
 ### Design
 
 ###### Modularization and Encapsulation
-Used modularization in the SDK. Other methods of the SDK are hidden. For this concept, would be more defined when typecsript is used as the "private" keyword can be used on the methods. 
+Used modularization in the SDK. Other methods of the SDK are hidden. For this concept, would be more defined when typecsript is used as the "private" keyword (with optional _ to start method name) can be used on the methods. 
 
 
 ###### Object Oriented
