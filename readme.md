@@ -16,9 +16,9 @@ npm i liblab-js-sdk
 const {MoviesSDK} = require('liblab-js-sdk');
 
 
-const baseUrl ='https://b270-69-18-20-69.ngrok.io'
+const baseUrl ='YOUR_BASE_URL'
 
-const apiKey = "6tcw4pjbTd7mmXUGhiSl";
+const apiKey = "YOUR_API_KEY";
 
 const movieSDK = new MoviesSDK(baseUrl, apiKey);
 
@@ -34,7 +34,7 @@ movieSDK.getMovies().then((movies) => {
       });
 
 
-const id ="5cd95395de30eff6ebccde5d"; 
+const id ="MOVIE_ID"; 
 
 movieSDK.getMovieById(id).then((movies) => {
         console.log(movies);
